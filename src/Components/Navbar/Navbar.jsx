@@ -10,18 +10,21 @@ const Navbar = ({ children }) => {
     <div>
       <div className={styles.containerNavbar}>
         <Link to="/" style={{ color: "#e1d4c7", textDecoration: "none" }}>
-          Comision: 51600
+          <h2>TIME IS GOLD </h2>
         </Link>
 
         <ul className={styles.containerList}>
           <Link to="/" className={styles.navbarItem}>
-            Todas
+            TODOS
           </Link>
-          <Link to="/category/urbanas" className={styles.navbarItem}>
-            Urbanas
+          <Link to="/category/Analogicos" className={styles.navbarItem}>
+            Analogicos
           </Link>
-          <Link to="/category/deportivas" className={styles.navbarItem}>
-            Deportivas
+          <Link to="/category/Digitales" className={styles.navbarItem}>
+            Digitales
+          </Link>
+          <Link to="/category/SmartWatchs" className={styles.navbarItem}>
+            SmartWatch
           </Link>
         </ul>
         <CartWidget numero={numero} />
