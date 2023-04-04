@@ -1,9 +1,10 @@
-import React from 'react'
-import Item from '../Item/Item'
+import React from "react";
+import Item from "../Item/Item";
 
-const ItemList = ( {items} ) => {
+const ItemList = ({ items }) => {
   return (
-    <div style={ {
+    <div
+      style={{
         display: "flex",
         width: "100%",
         minHeight: "100vh",
@@ -11,17 +12,14 @@ const ItemList = ( {items} ) => {
         alignItems: "center",
         flexWrap: "wrap",
         gap: "20px",
-        padding: "20px 0"
-    } } >
-        
-        {
-            items.map( (element)=>{
-                return <Item key={element.id} element={element} />
-            } )
-        }
-
+        padding: "20px 0",
+      }}
+    >
+      {items.map((element) => {
+        return <Item key={element.id} element={element} />;
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default ItemList
+export default ItemList;
