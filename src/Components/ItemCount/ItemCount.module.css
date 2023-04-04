@@ -1,23 +1,29 @@
-button {
+#miBotonRestar,
+#miBotonSumar,
+#miBotonAgregar {
   background-color: black;
   color: white;
-  font-size: 1.5em;
-  padding: 1em 2em;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
+  padding: 12px 24px;
+  font-size: 20px;
   cursor: pointer;
+  margin: 4px;
 }
 
-button:hover {
-  background-color: #222;
+#miBotonRestar:hover,
+#miBotonSumar:hover,
+#miBotonAgregar:hover {
+  background-color: #333;
 }
+
 .contadorT {
-  font-size: 2em;
+  font-size: 20px;
   color: azure;
   padding: 1em 2em;
   border: none;
   border-radius: 5px;
-  background-color: blueviolet;
+  background-color: rgb(0, 0, 0);
   width: 300px;
 }
 .stockT {
@@ -26,6 +32,6 @@ button:hover {
   padding: 1em 2em;
   border: none;
   border-radius: 5px;
-  background-color: rgb(0, 87, 250);
+  background-color: rgb(0, 0, 0);
   width: 300px;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import ItemCount from "../ItemCount/ItemCount";
-// import "./ItemDetail.css";
+import "./ItemDetail.css";
 const ItemDetail = ({ productSelected, onAdd, quantity }) => {
   return (
     <div className={"containerItemDetail"}>
