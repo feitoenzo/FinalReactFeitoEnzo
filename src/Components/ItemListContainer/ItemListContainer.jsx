@@ -53,16 +53,7 @@ const ItemListContainer = () => {
 
   return (
     <div>
-      {/* {
-        items.length > 0 && <ItemList items={items} />
-      } */}
-
       <ItemList items={items} />
-      {/* <h1 style={{ color: items.length > 0 ? "red" : "blue" }}>
-        Cambio de color
-      </h1> */}
-
-      {/* <input type={ showPassword ? "text" : "password"} /> */}
     </div>
   );
 };

@@ -24,7 +24,7 @@ const Item = ({ element }) => {
       <CardMedia
         sx={{ height: 160, backgroundColor: "whitesmoke" }}
         image={element.img}
-        title="green iguana"
+        title=""
       />
       <CardContent sx={{ height: 130 }}>
         <Typography gutterBottom variant="h5" component="div" align="center">
@@ -35,8 +35,8 @@ const Item = ({ element }) => {
       </CardContent>
       <CardActions>
         <Link to={`/itemDetail/${element.id}`}>
-          <Button size="small" variant="contained" color="primary">
-            Ver detalle
+          <Button size="medium" variant="contained" color="primary">
+            IR AL PRODUCTO
           </Button>
         </Link>
       </CardActions>

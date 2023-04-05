@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./FormCheckout.css";
 import { addDoc, collection, updateDoc, doc } from "firebase/firestore";
 import { db } from "../../firebaseConfig";
 
